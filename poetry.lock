@@ -38,10 +38,12 @@ name = "aw-client"
 version = "0.5.15"
 description = "Client library for ActivityWatch"
 optional = false
-python-versions = "^3.8"
+python-versions = "<4.0,>=3.8"
 groups = ["main"]
-files = []
-develop = false
+files = [
+    {file = "aw_client-0.5.14-py3-none-any.whl", hash = "sha256:18a72a4c6a662f01028f97aa50bd1eb8d00d7b531a544e9c25fc1bc86380bfa9"},
+    {file = "aw_client-0.5.14.tar.gz", hash = "sha256:94cf9614029ee416c44590126f2975512d7b37869bf8b8de62c5e03d68996859"},
+]
 
 [package.dependencies]
 aw-core = "^0.5.16"
@@ -597,13 +599,14 @@ setuptools = ">=42.0.0"
 
 [[package]]
 name = "pynput"
-version = "1.7.7"
+version = "1.8.1"
 description = "Monitor and control user input devices"
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "pynput-1.7.7-py2.py3-none-any.whl", hash = "sha256:afc43f651684c98818de048abc76adf9f2d3d797083cb07c1f82be764a2d44cb"},
+    {file = "pynput-1.8.1-py2.py3-none-any.whl", hash = "sha256:42dfcf27404459ca16ca889c8fb8ffe42a9fe54f722fd1a3e130728e59e768d2"},
+    {file = "pynput-1.8.1.tar.gz", hash = "sha256:70d7c8373ee98911004a7c938742242840a5628c004573d84ba849d4601df81e"},
 ]
 
 [package.dependencies]
